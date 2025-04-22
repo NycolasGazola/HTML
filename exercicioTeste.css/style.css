@@ -1,0 +1,59 @@
+
+
+:root {
+    --laranja: #ff6600;
+    --preto: #000000;
+    --branco: #ffffff;
+  }
+
+  body {
+    background-color: var(--branco);
+    color: var(--preto);
+  }
+  body > img{
+      width: 50px;
+      height: 50px;
+              
+  }
+  div > img{
+      max-width: 300px;
+      max-height: 300px;
+      margin: auto;
+      padding: auto;
+  }
+
+  .navbar {
+    background-color: var(--laranja);
+  }
+
+  .navbar .nav-link,
+  .navbar-brand,
+  .dropdown-item {
+    color: var(--branco) !important;
+  }
+
+  .dropdown-menu {
+    background-color: var(--preto);
+  }
+
+  .dropdown-item:hover {
+    background-color: var(--laranja);
+  }
+
+  header {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card-title {
+    color: var(--laranja);
+  }

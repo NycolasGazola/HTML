@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    font-family: Snell Roundhand, cursive;
+}
+
+body{
+    background-image: linear-gradient(to right,#8AA6A3,  #4C5958);
+}
+main{
+    background-color: rgb(233, 224, 224);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #05312d;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    font-family: Snell Roundhand, cursive;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0b665d;
+}
+h2{
+    font-family: Snell Roundhand, cursive;
+    color: #10403B;
+}
+
+p{
+    font-family: Snell Roundhand, cursive;
+text-align: justify;
+}

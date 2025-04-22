@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Araújo Embalagens</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container d-flex align-items-center gap-3 justify-content-center">
+        <img src="araujo.png" alt="Araujo embalagens" style="height: 60px;">
+    </div>
+    <h1>Araújo Embalagens</h1>
+    <p>Soluções inteligentes para proteger o seu produto</p>
+  </header>
+
+  <!-- Menu -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Araújo</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Produtos</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sacos Plásticos</a></li>
+              <li><a class="dropdown-item" href="#">Caixas de Papelão</a></li>
+              <li><a class="dropdown-item" href="#">Embalagens Térmicas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Serviços</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Personalização</a></li>
+              <li><a class="dropdown-item" href="#">Entrega Rápida</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrossel -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="araujo.png" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="best.jfif" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="locais.jfif" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Produtos -->
+  <section class="container mt-5">
+    <h2 class="text-center mb-4">Nossos Produtos</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="sacolas.webp" class="card-img-top" alt="Sacolas Plásticos">
+          <div class="card-body">
+            <h5 class="card-title">Sacolas Plásticos</h5>
+            <p class="card-text">Alta resistência e flexibilidade para proteger seus produtos com segurança.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="galvanoteck.webp" class="card-img-top" alt="Galvanoteck">
+          <div class="card-body">
+            <h5 class="card-title">Embalagens Galvanoteck</h5>
+            <p class="card-text">Ideais para transporte e armazenamento com proteção e organização.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="total plast.webp" class="card-img-top" alt="Embalagens Térmicas">
+          <div class="card-body">
+            <h5 class="card-title">Embalagens Térmicas</h5>
+            <p class="card-text">Perfeitas para manter a temperatura ideal de alimentos e produtos sensíveis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Fale Conosco</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Araújo Embalagens - Todos os direitos reservados.</p>
+    <p>Contato: contato@araujoembalagens.com | (11) 99999-0000</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
