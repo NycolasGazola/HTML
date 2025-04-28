@@ -25,6 +25,7 @@
 }
 
 body{
+    background-image: url(wallpaper004.jpg);
     background-color:var(--cor0);
     font-family: var(--font-padrao);
 }
