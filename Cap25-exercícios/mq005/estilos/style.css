@@ -57,7 +57,7 @@ menu > ul > li > :hover{
 
 main{
     width: 90vw;
-    background-color: white;
+    background-color: rgba(144, 238, 144, 0.527);
     margin: auto;
     padding: 10px;
     border-radius: 10px;
